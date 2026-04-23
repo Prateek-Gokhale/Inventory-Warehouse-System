@@ -1,0 +1,4 @@
+run = "mkdir -p out/main && javac --enable-preview --release 21 -d out/main $(find src/main/java -name \"*.java\") && java --enable-preview -cp out/main com.warehouse.WarehouseApp"
+
+[nix]
+channel = "stable-24_05"
